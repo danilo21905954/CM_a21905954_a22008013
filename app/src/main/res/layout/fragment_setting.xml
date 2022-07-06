@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistoFragment">
+
+    <LinearLayout
+        android:id="@+id/ll_main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="25dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="@color/orange"
+            android:padding="30dp"
+            android:text="Registar Incêndio"/>
+        <EditText
+            android:id="@+id/et_user_name"
+            android:hint="Nome Completo"
+            android:textColor="@color/orange"
+            android:textColorHint="@color/orange"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/et_password"
+            android:hint="Telemóvel"
+            android:textColor="@color/orange"
+            android:textColorHint="@color/orange"
+            android:textAlignment="center"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="25dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_submit"
+                android:backgroundTint="@color/orange"
+                android:text="Enviar"
+                android:textAllCaps="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</FrameLayout>

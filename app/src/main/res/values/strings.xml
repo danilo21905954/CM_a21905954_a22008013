@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Fogos</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="phone_number">phone_number</string>
+    <string name="submit">submit</string>
+</resources>
